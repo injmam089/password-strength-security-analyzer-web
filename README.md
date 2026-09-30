@@ -328,23 +328,23 @@ The application is intended for modern browsers that support standard ES6+ JavaS
 
 ## 📸 Screenshots
 
-Screenshots are not currently included in the repository. For a stronger GitHub presentation, add a `screenshots/` directory containing images such as:
+### Main Dashboard
 
-```text
-screenshots/
-├── analyzer.png
-├── generator.png
-└── mobile.png
-```
+![Password Strength & Security Analyzer](Screenshot%202026-09-30%20195121.png)
 
-Then reference them here:
+The main dashboard combines real-time password analysis with the secure password generator.
 
-```md
-![Password Analyzer](screenshots/analyzer.png)
-![Password Generator](screenshots/generator.png)
-![Mobile View](screenshots/mobile.png)
-```
+### Password Generator
 
+![Password Generator](Screenshot%202026-09-30%20194222.png)
+
+The generator supports configurable password length, character categories, secure generation, clipboard copying, and entropy estimation.
+
+### Password Analyzer
+
+![Password Analyzer](Screenshot%202026-09-30%20194123.png)
+
+The analyzer provides real-time strength scoring, password criteria checks, entropy classification, character diversity analysis, and common-password detection.
 ## ⚠️ Security Disclaimer
 
 This project is an educational password-strength and password-generation tool. Its strength score is a transparent heuristic and should not be interpreted as a formal security guarantee.
